@@ -2,5 +2,15 @@
   "name": "queue-debounce",
   "version": "0.1.0",
   "description": "queue and debounce  events",
-  "repository": "fingerpich/queue-debounce"
+  "repository": "fingerpich/queue-debounce",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc ./index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only ./index.ts"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.2.4",
+    "@types/node": "^16.9.1"
+  }
 }
