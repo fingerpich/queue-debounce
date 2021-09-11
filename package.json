@@ -1,6 +1,6 @@
 {
   "name": "queue-debounce",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "queue and debounce  events",
   "repository": "fingerpich/queue-debounce",
   "main": "index.js",
